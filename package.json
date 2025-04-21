@@ -1,10 +1,10 @@
 {
   "name": "node-mongo-export-cli",
   "version": "1.0.0",
-  "description": "CLI tool for exporting Smartify MongoDB collections",
+  "description": "CLI tool for exporting MongoDB collections",
   "main": "lib/exporter.js",
   "bin": {
-    "smartify-export": "./bin/smartify-export.js"
+    "export": "./bin/export.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +12,6 @@
   "keywords": [
     "mongodb",
     "export",
-    "smartify",
     "cli"
   ],
   "author": "Your Name",
