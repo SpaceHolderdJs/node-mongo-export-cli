@@ -1,0 +1,31 @@
+{
+  "name": "node-mongo-export-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for exporting Smartify MongoDB collections",
+  "main": "lib/exporter.js",
+  "bin": {
+    "smartify-export": "./bin/smartify-export.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongodb",
+    "export",
+    "smartify",
+    "cli"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "dotenv": "^16.0.3",
+    "mongodb": "^5.1.0",
+    "ora": "^6.1.2",
+    "chalk": "^5.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "preferGlobal": true
+}
