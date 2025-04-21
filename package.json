@@ -1,6 +1,6 @@
 {
   "name": "node-mongo-export-cli",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "CLI tool for exporting MongoDB collections",
   "main": "lib/exporter.js",
   "bin": {
@@ -14,7 +14,7 @@
     "export",
     "cli"
   ],
-  "author": "Your Name",
+  "author": "spaceholder",
   "license": "MIT",
   "dependencies": {
     "commander": "^10.0.0",
